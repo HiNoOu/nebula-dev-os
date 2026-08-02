@@ -1,7 +1,6 @@
-// Change this to your actual Render backend URL once Step 3 gives it to you!
 const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? 'http://localhost:5000/api'
-    : 'https://nebula-dev-os-api.onrender.com'; // Replace with your exact Render web service URL
+    : 'https://nebula-dev-os-api.onrender.com/api'; // Make sure /api is added at the end!
 
 // Global State
 let globalHackathons = [];
